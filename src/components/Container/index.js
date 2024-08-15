@@ -1,10 +1,10 @@
-import styles from './Container.module.css'
+import styles from "./Container.modules.css";
 
-function Container() {
+function Container({ children }) {
     return (
-        <div className={styles.banner}>
-
-        </div>
+        <section className={styles.container}>
+            {children}
+        </section>
     );
 }
 
