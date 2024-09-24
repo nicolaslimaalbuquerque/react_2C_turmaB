@@ -1,9 +1,9 @@
-import styles from './Footer.module.css';
+import styles from "./Footer.module.css";
 
 function Footer() {
     return (
         <footer className={styles.footer}>
-        <h2>desenvolvido por Nicolas Albuquerque &reg; 2024</h2>
+            <h2>EtecFlix &copy; Desenvolvido por Murilo Gama 2024</h2>
         </footer>
     );
 }
